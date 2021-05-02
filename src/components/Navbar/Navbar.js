@@ -6,7 +6,7 @@ const Navbar = () => {
         <div>
             <nav style={{backgroundColor:"#060215", padding:"15px 0px"}} class="fixed-top navbar navbar-expand-lg ">
                 <div class="container-fluid ">
-                <a class="ms-md-5 navbar-brand text-white" href=""><h3>ZIAUR RAHMAN</h3></a>
+                <a class="ms-md-5 navbar-brand text-white" ><h3>ZIAUR RAHMAN</h3></a>
                 <button   class="navbar-toggler bg-dark " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon bg-white"></span>
                 </button>

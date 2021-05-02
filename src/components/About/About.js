@@ -31,7 +31,7 @@ const About = () => {
                                     <form onsubmit={sendEmail}>
                                         <input name="name" className="form-control" type="text" placeholder="Your name"></input><br/>
                                         <input name="email" className="form-control" type="text" placeholder="Your email"></input><br/>
-                                        <textarea name="message" className="pe-0" name="message"  cols="40" rows="4"></textarea> <br/>
+                                        <textarea  className="pe-0" name="message"  cols="40" rows="4"></textarea> <br/>
                                         <button type="submit" className="btn btn-danger">Send Message</button>
                                     </form>
                                </div>
