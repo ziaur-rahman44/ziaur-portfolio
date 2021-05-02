@@ -1,0 +1,37 @@
+.about-banner{
+    background-image: url('../../images/about.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    color: white;
+    padding-bottom: 50px;
+}
+.form-contact textarea{
+    width: 100%;
+}
+.form-contact button{
+    width: 100%;
+    font-size: 22px;
+}
+.contact{
+    text-align: left;
+    padding-left: 20px;
+    font-size: 24px;
+}
+.contact i{
+    padding-right: 10px;
+}
+
+.social-icon img{
+    width: 80px;
+    margin-right: 30px;
+    margin-top: 20px;
+    text-align: left;
+}
+.social-icon{
+    text-align: left;
+    margin-left: 20px;
+}
+.social-icon img:hover{
+    cursor: pointer;
+}

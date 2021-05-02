@@ -1,0 +1,14 @@
+.header-top{
+    background-color:#05071bef;
+    padding-bottom: 80px;
+}
+.header-img{
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+.header-img img{
+    margin-top: 30px;
+}
+.header-title{
+    color: white;
+}
