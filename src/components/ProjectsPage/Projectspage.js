@@ -23,6 +23,8 @@ const Projectspage = () => {
             img:transport,
             details:"This website create for travels agency. If you need transport any place so you visit this site. Travels criteria four criteria train, bus, bike and car. And showing login and sign in system using firebase authentication.",
             resource:"HTML, CSS, React.JS, React Rout, React Private Route, React Bootstrap.",
+            gitLink:"https://github.com/Porgramming-Hero-web-course/react-auth-ziaur-rahman44",
+            liveLink:"",
             id:2
         },
         {
@@ -30,6 +32,8 @@ const Projectspage = () => {
             img:slider,
             details:"This website for slider create any user at first search any image and select choice image then click create slider button and he want to slider duration time select in slider duration input section. And next page show his slide.",
             resource:"HTML, CSS, JavaScript",
+            gitLink:"",
+            liveLink:"",
             id:3 
         },
         {
@@ -37,6 +41,8 @@ const Projectspage = () => {
             img:player,
             details:"This website create for showing how to any cricket team or league hire cricket player for the team.and player budget and total player budget calculation.",
             resource:"HTML, CSS, JavaScript, Bootstrap, Font Awesome iconThe website create using fake data. and deploy Netlify webhost site.",
+            gitLink:"",
+            liveLink:"",
             id:4
         },
         {
@@ -44,6 +50,8 @@ const Projectspage = () => {
             img:shopping,
             details:"The Website for shopping any book. use firebase authentication login system and private route using .Backend some work and any product add system include and show adding part in home and page Responsive for Desktop and Mobile version.",
             resource:"React.js,Node.js,MongoDB,React Router,React Private Route,Bootstrap,Firebase.",
+            gitLink:"",
+            liveLink:"",
             id:5
         },
         {
@@ -51,6 +59,8 @@ const Projectspage = () => {
             img:meal,
             details:"Hungry monster website create for searching any meal and this using API and some javascript condition.User search any meal name and see meal recipe details.",
             resource:"HTML,CSS and JavaScript",
+            gitLink:"",
+            liveLink:"",
             id:6
         },
     ]

@@ -2,13 +2,14 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
+
     return (
         <div>
-            <nav style={{backgroundColor:"#060215", padding:"15px 0px"}} class="fixed-top navbar navbar-expand-lg ">
+            <nav style={{backgroundColor:"#060215", padding:"15px 0px"}} class="fixed-top navbar navbar-expand-lg navbar-dark">
                 <div class="container-fluid ">
                 <h3 class="ms-md-5 navbar-brand text-white" >ZIAUR RAHMAN</h3>
-                <button   class="navbar-toggler bg-dark " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon bg-white"></span>
+                <button   class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
                 </button>
                 <div  class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
