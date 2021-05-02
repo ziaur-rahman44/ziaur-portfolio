@@ -13,7 +13,7 @@ const Projects = () => {
             name:'TEAM-DETAILS',
             img:teamDetails,
             gitLink:"https://github.com/Porgramming-Hero-web-course/react-router-ziaur-rahman44",
-            liveLink:"https://app.netlify.com/sites/elated-wescoff-01beff/overview",
+            liveLink:"https://team-summary.netlify.app/",
             id:1
         },
         {

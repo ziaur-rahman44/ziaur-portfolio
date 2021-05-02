@@ -17,7 +17,7 @@ const Projectspage = () => {
             details:"The website showing some football team summery and team explore. Team details collect to thesportsdb website API. If any user click explore button to Home page. Then next pages team details and showing some social icon and social link as footer.",
             resource:"HTML, CSS, Bootstrap, React.JS, React Router, React Font Awesome.The page responsive for desktop and mobile version.",
             gitLink:"https://github.com/Porgramming-Hero-web-course/react-router-ziaur-rahman44",
-            liveLink:"https://app.netlify.com/sites/elated-wescoff-01beff/overview",
+            liveLink:"https://team-summary.netlify.app/",
             id:1
         },
         {
