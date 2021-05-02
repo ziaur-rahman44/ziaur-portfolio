@@ -13,8 +13,8 @@ const ProjectDeatils = (props) => {
                 </div>
                 <div className="project-details">
                     
-                    <a href={liveLink} target="_blank"><button className="button-project">Visit Site</button></a>
-                    <a href={gitLink} target="_blank"><button className="button-project">Source Code</button></a><br/>
+                    <a href={liveLink} target="_blank" rel="opener"><button className="button-project">Visit Site</button></a>
+                    <a href={gitLink} target="_blank" rel="opener"><button className="button-project">Source Code</button></a><br/>
                     <Link to="/project"><button className="button-project mt-2 px-5">Project Details</button></Link>
                 </div>
             </div>
