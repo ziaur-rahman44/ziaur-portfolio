@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import './ProjectDetails.css'
 
 const ProjectDeatils = (props) => {
-    const {name,img} = props.project
+    const {name,img,gitLink,liveLink} = props.project
     return (
         <div className="col-md-4 col-12">
             <div className="single-project">
@@ -13,8 +13,8 @@ const ProjectDeatils = (props) => {
                 </div>
                 <div className="project-details">
                     
-                    <button className="button-project">Visit Site</button>
-                    <button className="button-project">Source Code</button><br/>
+                    <a href={liveLink} target="_blank"><button className="button-project">Visit Site</button></a>
+                    <a href={gitLink} target="_blank"><button className="button-project">Source Code</button></a><br/>
                     <Link to="/project"><button className="button-project mt-2 px-5">Project Details</button></Link>
                 </div>
             </div>

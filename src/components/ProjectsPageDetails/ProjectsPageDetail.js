@@ -1,7 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const ProjectsPageDetail = (props) => {
-    const{name,img,details,resource} = props.project
+    const{name,img,details,resource,gitLink,liveLink} = props.project
     return (
         <div className="col-md-12 col-12 pb-4">
             <div className="single-project">
@@ -12,8 +13,8 @@ const ProjectsPageDetail = (props) => {
                 <div className="project-details pt-3">
                     <p style={{fotSize:"20px"}} className="text-start ps-2"><span style={{color:"#F77B07"}} className="text-start fw-bold pe-2">ABOUT PAGE:</span>{details}</p>
                     <p className="text-start ps-2"><span style={{color:"#F77B07"}} className="fw-bold pe-2">TECHNOLOGY:</span>{resource}</p>
-                    <button className="button-project">Visit Site</button>
-                    <button className="button-project">Source Code</button><br/>
+                    <a target="_blank" href={liveLink}><button className="button-project">Visit Site</button></a>
+                    <a href={gitLink}><button className="button-project">Source Code</button></a>
                 </div>
             </div>
         </div>
