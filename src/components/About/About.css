@@ -1,8 +1,4 @@
 .about-banner{
-    background-image: url('../../images/about.jpg');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
     color: white;
     padding-bottom: 50px;
 }
@@ -12,6 +8,9 @@
 .form-contact button{
     width: 100%;
     font-size: 22px;
+}
+.form-contact input,textarea{
+   color: gray;
 }
 .contact{
     text-align: left;

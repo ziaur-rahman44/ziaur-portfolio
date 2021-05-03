@@ -2,18 +2,18 @@
     border:none;
     margin-right: 5px;
     margin-bottom: 3px;
-    background-color: rgb(12, 43, 43);
+    background-color: #05071bef;
     color: white;
     border-radius: 8px;
     padding: 5px;
 }
 .resume-card{
-    background-color: rgb(16, 22, 20);
+    background-color: #05071bef;
     margin-top:30px;
     padding-top:20px;
     padding-bottom: 20px;
     border-radius: 12px;
-    color: rgb(207, 203, 196);
+    color: white;
 }
 .resume h2{
     font-weight: bold;

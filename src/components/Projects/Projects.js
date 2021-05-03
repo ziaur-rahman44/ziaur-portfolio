@@ -6,6 +6,7 @@ import shopping from '../../images/book-shopping.JPG';
 import meal from '../../images/meal.JPG';
 import slider from '../../images/slider.JPG';
 import ProjectDeatils from '../ProjectDetails/ProjectDeatils';
+import { Link } from 'react-router-dom';
 
 const Projects = () => {
     const projectData = [
@@ -56,8 +57,8 @@ const Projects = () => {
 
     return (
         <section>
-            <div className="container">
-            <h1 className="fw-bold">MY PROJECTS</h1>
+            <div className="container pt-md-5 text-center">
+            <h1 className="fw-bold text-white">MY PROJECTS</h1>
                 <div className="d-flex justify-content-center">
                     <div className="row mt-3 mb-5 pt-5 px-3">
                         {
@@ -65,6 +66,7 @@ const Projects = () => {
                         }
                     </div>
                 </div>
+                <Link to="/project"><button className="button-project  px-5">Project Details</button></Link>
             </div>
         </section>
     );

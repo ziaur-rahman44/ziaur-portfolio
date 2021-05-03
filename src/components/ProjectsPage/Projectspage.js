@@ -71,8 +71,8 @@ const Projectspage = () => {
         <>
         <Navbar></Navbar>
          <section className="">
-            <div style={{marginTop:"120px"}} className="container">
-            <h1 className="fw-bold pt-3 pb-3">MY PROJECTS</h1>
+            <div style={{paddingTop:"120px"}} className="container">
+            <h1 className="fw-bold pt-3 pb-3 text-white">MY PROJECTS</h1>
                 <div>
                     <div className="row mt-3 mb-5 pt- px-3 d-flex justify-content-center">
                         {
