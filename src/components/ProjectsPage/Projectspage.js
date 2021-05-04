@@ -70,7 +70,7 @@ const Projectspage = () => {
     return (
         <>
         <Navbar></Navbar>
-         <section className="">
+         <section className="text-center">
             <div style={{paddingTop:"120px"}} className="container">
             <h1 className="fw-bold pt-3 pb-3 text-white">MY PROJECTS</h1>
                 <div>

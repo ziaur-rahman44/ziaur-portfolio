@@ -26,8 +26,8 @@ const About = () => {
                 <div className="about-section">
                     <h1 className="my-5 pt-5 fw-bold text-center">ABOUT ME</h1>
                     <div className="row">
-                        <div style={{borderRadius:"8px",backgroundColor:"#05071bef",padding:"30px"}} className="col-md-6 col-12 px-3">
-                               <div className="form-contact">
+                        <div  className="col-md-6 col-12 px-3">
+                               <div style={{borderRadius:"8px",backgroundColor:"#05071bef",padding:"30px"}} className="form-contact">
                                     <h3 className="pb-4 fw-bold text-center">Get In Touch</h3>
                                     <form onsubmit={sendEmail}>
                                         <input name="name" className="form-control" type="text" placeholder="Your name"></input><br/>
@@ -38,7 +38,7 @@ const About = () => {
                                </div>
                         </div>
                         <div  className="col-md-6 col-12 pt-md-0 pt-5 px-3">
-                            <div style={{borderRadius:"8px",backgroundColor:"#05071bef",padding:"32px"}} className="">
+                            <div style={{borderRadius:"8px",backgroundColor:"#05071bef",padding:"32px"}} >
                                 <div className="contact text-left py-3">
                                     <h3 className="pb-4 fw-bold text-center">My Contact Information</h3>
                                     <i class="fa fa-map-marker"></i><span>Bishwambarpur, Sunamgamj, Sylhet, Bangladesh</span><br/>

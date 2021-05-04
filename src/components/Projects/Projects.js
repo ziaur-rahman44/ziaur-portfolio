@@ -66,7 +66,7 @@ const Projects = () => {
                         }
                     </div>
                 </div>
-                <Link to="/project"><button className="button-project  px-5">Project Details</button></Link>
+                <Link to="/project"><button className="button-project  px-5">Projects Details</button></Link>
             </div>
         </section>
     );
