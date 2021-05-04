@@ -27,9 +27,9 @@ const About = () => {
                     <h1 className="my-5 pt-5 fw-bold text-center">ABOUT ME</h1>
                     <div className="row">
                         <div  className="col-md-6 col-12 px-3">
-                               <div style={{borderRadius:"8px",backgroundColor:"#05071bef",padding:"30px"}} className="form-contact">
+                               <div style={{borderRadius:"8px",backgroundColor:"#05071bef",padding:"46px 30px"}} className="form-contact">
                                     <h3 className="pb-4 fw-bold text-center">Get In Touch</h3>
-                                    <form onsubmit={sendEmail}>
+                                    <form onSubmit={sendEmail}>
                                         <input name="name" className="form-control" type="text" placeholder="Your name"></input><br/>
                                         <input name="email" className="form-control" type="text" placeholder="Your email"></input><br/>
                                         <textarea  className="pe-0" name="message"  cols="40" rows="4"></textarea> <br/>
