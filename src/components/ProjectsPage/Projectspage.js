@@ -1,5 +1,5 @@
 import React from 'react';
-import teamDetails from '../../images/team-summary.JPG'
+import curiesQueen from '../../images/curies-queeen.JPG';
 import player from '../../images/player-hire.JPG';
 import transport from '../../images/metro-transport.JPG';
 import shopping from '../../images/book-shopping.JPG';
@@ -12,12 +12,12 @@ import Footer from '../Footer/Footer';
 const Projectspage = () => {
     const projectData = [
         {
-            name:'TEAM-DETAILS',
-            img:teamDetails,
-            details:"The website showing some football team summery and team explore. Team details collect to thesportsdb website API. If any user click explore button to Home page. Then next pages team details and showing some social icon and social link as footer.",
-            resource:"HTML, CSS, Bootstrap, React.JS, React Router, React Font Awesome.The page responsive for desktop and mobile version.",
-            gitLink:"https://github.com/Porgramming-Hero-web-course/react-router-ziaur-rahman44",
-            liveLink:"https://team-summary.netlify.app/",
+            name:'Curies Queen',
+            img:curiesQueen,
+            details:"he Website for booking ticket.This website is one page website. This website is dynamic calculate ticket quantity and pice and count the total amount",
+            resource:"HTML, CSS,Bootstrap,JavaScript",
+            gitLink:"https://github.com/ziaur-rahman44/cruise-queen",
+            liveLink:"https://curies-booking.netlify.app/",
             id:1
         },
         {

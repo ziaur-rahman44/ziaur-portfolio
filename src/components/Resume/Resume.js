@@ -42,7 +42,7 @@ const Resume = () => {
                             <div className="col-md-6 col-12">
                                 <h5 className="mt-3 mb-2 fw-bold text-start text-white">Familiar</h5>
                                 <div className="technology text-start">
-                                    <button>TypeScript</button><button>React Native</button><button>Material UI</button>
+                                    <button>TypeScript</button><button>Wordpress</button><button>React Native</button><button>Material UI</button>
                                     <button>JQuery</button><button>Python</button>
                                 </div>
                             </div>

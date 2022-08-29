@@ -1,5 +1,5 @@
 import React from 'react';
-import teamDetails from '../../images/team-summary.JPG'
+import curiesQueen from '../../images/curies-queeen.JPG'
 import player from '../../images/player-hire.JPG';
 import transport from '../../images/metro-transport.JPG';
 import shopping from '../../images/book-shopping.JPG';
@@ -11,10 +11,10 @@ import { Link } from 'react-router-dom';
 const Projects = () => {
     const projectData = [
         {
-            name:'TEAM-DETAILS',
-            img:teamDetails,
-            gitLink:"https://github.com/Porgramming-Hero-web-course/react-router-ziaur-rahman44",
-            liveLink:"https://team-summary.netlify.app/",
+            name:'Curies Queen',
+            img:curiesQueen,
+            gitLink:"https://github.com/ziaur-rahman44/cruise-queen",
+            liveLink:"https://curies-booking.netlify.app/",
             id:1
         },
         {
